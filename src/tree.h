@@ -5,8 +5,7 @@
  */
 
 #include "node.h"
-namespace treeboost
-{
+
   class DTree
   {
     public:
@@ -15,5 +14,5 @@ namespace treeboost
       Cut CalculateBestCut();
       Node* _pRoot;
   };
-}
-/* vim:expandtab:ts=2:shiftwidth=2
+
+/* vim:expandtab:ts=2:shiftwidth=2 */
